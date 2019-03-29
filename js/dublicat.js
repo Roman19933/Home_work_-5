@@ -6,6 +6,6 @@ function removeDuplicationLetters(str) {
 		}
 	}
 	
-	console.log(dublicat);
+	return dublicat;
  }
 removeDuplicationLetters('Hello I am Iron Man') // 'Helo I am rn '

@@ -1,7 +1,6 @@
 function sumRange(start,end){
-	// i=0;
 	let result_sum=0;
-	for (var i = start; i <= end; i++) {
+	for (let i = start; i <= end; i++) {
 	
 	result_sum +=i;
 
@@ -11,7 +10,6 @@ function sumRange(start,end){
 	} else{
 		return result_sum;
 	}
-	// return result_sum;
 }
 sumRange(2,4)
 sumRange(-1,3)

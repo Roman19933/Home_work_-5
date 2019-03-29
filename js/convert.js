@@ -1,5 +1,5 @@
 function convert(amount){
-	let usd = 8;
+	const usd = 8;
 	let result = amount*usd;
 	return result;
 }
